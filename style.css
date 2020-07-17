@@ -1,0 +1,22 @@
+.header {
+    height: 40vh;
+    background-image: url("");
+}
+
+.header-text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heading-primary span {
+    display: block;
+
+}
+
+.heading-primary a {
+    text-decoration: none;
+    color: black;
+}
