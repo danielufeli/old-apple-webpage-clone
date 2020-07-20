@@ -1,6 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
 .header {
-    height: 40vh;
-    background-image: url("");
+    height: 85vh;
+    width: 50%;
+    background-image: url("img/background-image.png");
+    background-size: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
 }
 
 .header-text-box {
@@ -13,7 +28,6 @@
 
 .heading-primary span {
     display: block;
-
 }
 
 .heading-primary a {
