@@ -9,13 +9,13 @@ body {
 }
 
 .header {
-    height: 85vh;
-    width: 50%;
-    background-image: url("img/background-image.png");
+    height: 100vh;
+    width: 100%;
+    background-image: url("img/your_verse_hero.jpg");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
     background-size: cover;
-    top: 0;
-    left: 0;
-    position: absolute;
 }
 
 .header-text-box {
@@ -33,4 +33,34 @@ body {
 .heading-primary a {
     text-decoration: none;
     color: black;
+}
+
+nav {
+    background-image: linear-gradient(#777777, #767676);
+    transform: translateY(6rem);
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 0.2rem solid;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 5rem;
+}
+li {
+    border-right: 0.1rem solid #000;
+}
+
+li a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    margin-right: 1rem;
 }
