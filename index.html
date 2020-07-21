@@ -4,22 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
     <title>Apple</title>
   </head>
   <body>
     <main>
           
       <header class="header">
-        <nav>
+          <nav>
             <ul>
               <li>
-                <a href="#"><i class="fa fa-apple" aria-hidden="true"></i></a>
+                <svg class="apple-logo">
+                  <a href="#"><use xlink:href="img/sprite2.svg#iconappleinc"></use></a>
+                </svg>
               </li>
               <li><a href="#">Store</a></li>
               <li><a href="#">Mac</a></li>
@@ -30,9 +26,13 @@
               <li><a href="#">Support</a></li>
             </ul>
             <div>
-              <form action="">
-                <i class="fa fa-search" aria-hidden="true"></i>
-                <input type="text" name="" id="" />
+              <form action="#" class="input-form">
+                <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
+                <input  class="input-search" type="text" name="" id=""/>
+                <svg class="magnifying-glass">
+                  <use xlink:href="img/sprite.svg#iconmagnifying-glass"></use>
+                </svg>
+
               </form>
             </div>
           </nav>
