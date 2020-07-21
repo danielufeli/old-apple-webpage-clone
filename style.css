@@ -39,57 +39,38 @@ nav {
     background-image: linear-gradient(#777777, #767676);
     transform: translate(-6rem, 6rem);
     display: flex;
-    justify-content: center;
-    z-index: 10;
     margin-left: 20rem;
     margin-right: 5rem;
-    padding: 0.5rem;
     border-radius: 5px;
     /* border: 0.2rem solid; */
 }
 
 ul {
     list-style-type: none;
-    display: flex;
-}
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
 
 .apple-logo {
     height: 1.5rem;
     width: 1.5rem;
     transform: translateX(-5rem);
-}
-
-li {
-    position: relative;
-    margin-right: 1rem;
-    transform: translateX(-2rem);
-}
-
-li:hover {
-    background-color: black;
-}
-
-li::after {
-    content: "";
-    height: 2.6rem;
-    width: 1px;
-    background: #a9a9a9;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: -31%;
-}
-
-li:not(:first-child) {
-    margin-right: 2.1rem;
-}
-
-li a {
-    margin-right: 1.5rem;
-    text-decoration: none;
-    color: #fff;
-    font-size: 1rem;
-    margin-right: 1rem;
 }
 
 .input-form {
