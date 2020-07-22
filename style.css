@@ -14,62 +14,59 @@ body {
 /* -----------------------NAVBAR--------------------- */
 
 nav {
-  background-image: linear-gradient(#777777, #767676);
-  transform: translate(-10rem, 6rem);
+  background-image: linear-gradient(#A0A0A0, #606060, #808080);
+  transform: translate(10rem, 6rem);
   display: flex;
-  margin: 0 1rem 0 22rem;
+  margin: 0 0 0 5rem;
   border-radius: 5px;
   align-items: center;
+  z-index: 10;
+  justify-content: center;
+  position: relative;
+  width: 55rem;
 }
 
-nav ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-nav li {
+li {
   float: left;
   position: relative;
 }
 
-/* li::after {
-    content: "|";
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    height: 100%;
-  } */
-
-nav li a {
+li a {
   display: block;
   color: white;
   text-align: center;
   padding: 0.7rem 1.5rem 0.8rem 1.5rem;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
-nav li:not(:first-child) {
+li:not(:first-child) {
   padding-left: 0.3rem;
   padding-right: 0.3rem;
 }
 
-nav li a:hover {
-  background-color: #111;
+li a:hover {
+  background-image: linear-gradient(#606060, #202020, #404040);
 }
 
 .apple-logo {
   height: 1.5rem;
   width: 5rem;
   display: flex;
-  padding: 0.4rem 1.3rem 0.7rem 1.3rem;
-  cursor: pointer;
+  padding: 0.4rem 0.4rem 0.7rem 0.4rem;
   fill: #fff;
+  cursor: pointer;
+  align-items: center;
 }
 
 .apple-logo:hover {
-  background-color: #111;
+  background-image: linear-gradient(#606060, #202020, #404040);
 }
 
 .input-form {
@@ -78,54 +75,58 @@ nav li a:hover {
   align-items: center;
   justify-content: flex-end;
   margin-right: -4rem;
+  transform: translateX(-3rem);
 }
 
 .magnifying-glass {
   height: 1.2rem;
   width: 1.5rem;
-  transform: translateX(-6rem);
+  transform: translateX(-4.8rem);
   fill: #fff;
 }
 
 .input-search {
   border-radius: 2.5rem;
-  width: 50%;
+  width: 40%;
   height: 1.2rem;
   background-color: gray;
-  transition: all 0.1s;
+  transition: all .1s;
+  font-family: inherit;
+  font-weight: inherit;
 }
 
 .input-search:focus {
   outline: none;
-  width: 80%;
+  width: 65%;
   background-color: #fff;
-  text-indent: 2rem;
+  text-indent: 1.3rem;
 }
 
 .input-search:focus + svg {
   fill: gray;
-  transform: translateX(-10rem);
+  transform: translateX(-7.5rem);
 }
 
 /* -------------------------HEADING------------------- */
 
 .header {
   height: 100vh;
-  width: 100%;
   background-image: url("img/your_verse_hero.jpg");
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  z-index: 0;
+  margin-top: -8rem;
 }
 
 .header-text-box {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -30%);
-  text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    text-align: center;
 }
 
 .heading-primary a {
@@ -162,6 +163,14 @@ nav li a:hover {
   text-decoration: underline;
 }
 
+.play-button {
+  height: 1.5rem;
+  width: 1.5rem;
+  fill: #fff;
+}
+
+/* -------------------------COLUMNS------------------- */
+
 .sec-column {
   float: left;
   width: 25%;
@@ -169,6 +178,14 @@ nav li a:hover {
 
 .sec-column img {
   width: 100%;
+}
+
+/* -------------------------FOOTER------------------- */
+
+.sec-row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .footer-column {
@@ -190,6 +207,7 @@ nav li a:hover {
 .footer-p-a:hover {
     text-decoration: underline;
 }
+
 .footer-column ul {
   list-style-type: none;
   margin: 0;
@@ -200,22 +218,30 @@ nav li a:hover {
   float: left;
 }
 
-.footer-column li a {
+.footer-column-li-a {
   display: block;
   color: blue;
   text-align: center;
   padding: 14px 5px;
   text-decoration: none;
-  border-right: 1px solid grey;
+  font-size: 0.8rem;
+  position: relative;
+}
+
+.footer-column-li-a::after {
+  content: "";
+  height: 40%;
+  width: 1px;
+  position: absolute;
+  left: -7px;
+  top: 0;
+  background-color: gray;
+  margin-top: 0.9rem;
+  margin-left: 0.2rem;
 }
   
-
-.footer-column li a:hover {
+.footer-column-li-a:hover {
  text-decoration: underline;
+ background-image: none;
 }
 
-.sec-row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
