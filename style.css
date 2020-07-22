@@ -14,7 +14,7 @@ body {
 /* -----------------------NAVBAR--------------------- */
 
 nav {
-  background-image: linear-gradient(#a0a0a0, #606060, #808080);
+  background-image: linear-gradient(#A0A0A0, #606060, #808080);
   transform: translate(10rem, 6rem);
   display: flex;
   margin: 0 0 0 5rem;
@@ -28,7 +28,7 @@ nav {
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin-left: -2rem;
   padding: 0;
 }
 
@@ -75,7 +75,7 @@ li a:hover {
   align-items: center;
   justify-content: flex-end;
   margin-right: -4rem;
-  transform: translateX(-3rem);
+  transform: translateX(-1.2rem);
 }
 
 .magnifying-glass {
@@ -90,21 +90,21 @@ li a:hover {
   width: 40%;
   height: 1.2rem;
   background-color: gray;
-  transition: all 0.1s;
+  transition: all .1s;
   font-family: inherit;
   font-weight: inherit;
 }
 
 .input-search:focus {
   outline: none;
-  width: 65%;
+  width: 75%;
   background-color: #fff;
-  text-indent: 1.3rem;
+  text-indent: 1.2rem;
 }
 
 .input-search:focus + svg {
   fill: gray;
-  transform: translateX(-7.5rem);
+  transform: translateX(-8.8rem);
 }
 
 /* -------------------------HEADING------------------- */
