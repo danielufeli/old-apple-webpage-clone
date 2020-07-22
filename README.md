@@ -28,7 +28,7 @@ You can clone this code anytime and load the HTML on your browser, because it ha
 
 
 ## Live version
-https://goofy-mcclintock-3497d8.netlify.app/
+https://keen-mclean-c4488d.netlify.app/
 
 
 ### Setup
