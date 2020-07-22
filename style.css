@@ -84,7 +84,7 @@ li:not(:first-child) {
 .magnifying-glass {
   height: 1.2rem;
   width: 1.5rem;
-  transform: translateX(-4.8rem);
+  transform: translateX(-5rem);
   fill: #fff;
 }
 
@@ -102,12 +102,12 @@ li:not(:first-child) {
   outline: none;
   width: 75%;
   background-color: #fff;
-  text-indent: 1.2rem;
+  text-indent: 1.3rem;
 }
 
 .input-search:focus + svg {
   fill: gray;
-  transform: translateX(-8.8rem);
+  transform: translateX(-9.5rem);
 }
 
 /* -------------------------HEADING------------------- */
