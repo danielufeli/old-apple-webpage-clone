@@ -14,7 +14,7 @@ body {
 /* -----------------------NAVBAR--------------------- */
 
 nav {
-  background-image: linear-gradient(#A0A0A0, #606060, #808080);
+  background-image: linear-gradient(#a0a0a0, #606060, #808080);
   transform: translate(10rem, 6rem);
   display: flex;
   margin: 0 0 0 5rem;
@@ -90,7 +90,7 @@ li a:hover {
   width: 40%;
   height: 1.2rem;
   background-color: gray;
-  transition: all .1s;
+  transition: all 0.1s;
   font-family: inherit;
   font-weight: inherit;
 }
@@ -139,7 +139,6 @@ li a:hover {
   font-size: 4rem;
   color: #fff;
   font-weight: 100;
-  /* margin-top: 5rem; */
   margin-bottom: 2rem;
   margin-left: -2rem;
 }
