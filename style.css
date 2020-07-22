@@ -51,7 +51,7 @@ li:not(:first-child) {
   padding-right: 0.3rem;
 }
 
-li a:hover {
+.li-a:hover {
   background-image: linear-gradient(#606060, #202020, #404040);
 }
 
@@ -63,10 +63,13 @@ li a:hover {
   fill: #fff;
   cursor: pointer;
   align-items: center;
+  margin: -1.2rem;
+  transform: translateY(0.5rem);
 }
 
 .apple-logo:hover {
   background-image: linear-gradient(#606060, #202020, #404040);
+  margin: -1.2rem;
 }
 
 .input-form {
